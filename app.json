@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "food",
-    "slug": "food",
+    "name": "Restaurants",
+    "slug": "restaurants-app",
+    "description": "A simple app to find restaurants and their reviews, currently the area of Woodstock Georgia is the only area available",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +29,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "47f0c567-bc00-455c-80d4-d6b01e482e6c"
+      }
+    },
+    "owner": "tking3612"
   }
 }
